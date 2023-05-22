@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  p {
+    @apply text-[12px]
+  }
+  h2 {
+    @apply font-bold
+  }
+  h4 {
+    @apply font-semibold
+  }
+  h5 {
+    @apply font-semibold
+  }
+}
