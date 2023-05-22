@@ -4,7 +4,10 @@
 
 @layer base {
   p {
-    @apply text-[12px]
+    @apply text-[11px]
+  }
+  h1 {
+    @apply font-black text-3xl
   }
   h2 {
     @apply font-bold
@@ -14,5 +17,8 @@
   }
   h5 {
     @apply font-semibold
+  }
+  h6 {
+    @apply font-semibold text-[13px]
   }
 }

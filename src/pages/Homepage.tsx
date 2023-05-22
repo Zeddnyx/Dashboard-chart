@@ -8,13 +8,13 @@ import MTTR from "../components/chart/MTTR";
 import ProductivGrap from "../components/chart/ProductiveGraph";
 import Volatage from "../components/chart/Volatage";
 import Ampere from "../components/chart/Ampere";
-import TopFrequency from "../components/chart/MachineActivity";
+import TopFrequency from "../components/chart/TopFrequency";
 
 export default function homepage() {
   return (
     <div className="w-full px-2 text-[#fff]">
       <NavHomepage />
-      <div className="grid grid-cols-3 gap-3">
+      <div className="grid grid-cols-3 gap-3 p-2">
         <PaiCart />
         <LayoutArena />
         <Maintenance />

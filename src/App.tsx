@@ -5,11 +5,13 @@ import Homepage from "./pages/Homepage";
 function App() {
   return (
       <Router>
-        <div className="flex gap-5 w-full">
+        <div className="flex gap-10 w-full">
           <Nav />
+          <div className="ml-24">
           <Routes>
-            <Route path="/" element={<Homepage />} />
+            <Route path="/Dashboard" element={<Homepage />} />
           </Routes>
+          </div>
         </div>
       </Router>
   );

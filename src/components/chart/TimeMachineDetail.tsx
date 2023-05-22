@@ -14,6 +14,13 @@ const data = {
     },
   ],
 };
+const options = {
+  plugins: {
+    legend: {
+      position: "right",
+    },
+  },
+};
 
 export default function TimeMachineDetail() {
   return (
@@ -25,11 +32,11 @@ export default function TimeMachineDetail() {
 
       <div className="flex gap-5 h-full w-full">
         <div className="w-64">
-          <Pie data={data} />
+          <Pie data={data} options={options} />
         </div>
 
         <div className="h-full w-40 flex justify-between flex-col gap-2">
-          <div className="p-2 h-full from-blue-700 to-[#151616] bg-gradient-to-b">
+          <div className="p-2 h-full from-[#1C4BCD] to-[#151616] bg-gradient-to-b">
             <p>MTTR</p>
             <div className="items-center flex flex-col py-2">
               <h5>1,020 hours</h5>
@@ -42,7 +49,6 @@ export default function TimeMachineDetail() {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );

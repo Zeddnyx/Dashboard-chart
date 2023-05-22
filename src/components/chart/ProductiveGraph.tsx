@@ -28,6 +28,7 @@ export default function ProductiveGraph() {
       <Bar
         data={data}
         options={{
+  responsive: true,
           plugins: {
             title: {
               display: true,

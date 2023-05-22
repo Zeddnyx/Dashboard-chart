@@ -5,16 +5,18 @@ const data = {
   labels: labels,
   datasets: [
     {
-      data: [29, 30, 26, 50, 20, 44, 50],
+      data: [29, 30, 26, 50, 20, 38, 19, 20, 79, 90],
       backgroundColor: "#1C4BCD",
-      borderColor: "#afafaf",
+      borderColor: "#1C4BCD",
       pointBorderColor: "transparent",
-      pointBorderWidth: 1,
-      tensions: 0.3
+      pointBorderWidth: 0,
+      tension: 0.6
     },
   ],
 };
 const options = {
+  radius: 0,
+  hitRadius: 0,
   plugins: {
     legend: false,
   },
