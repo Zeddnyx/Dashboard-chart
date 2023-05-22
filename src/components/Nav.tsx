@@ -13,7 +13,7 @@ import Logo from "../assets/photo_2023-05-22_11-25-08.jpg";
 
 export default function Nav() {
   return (
-    <div className="w-28">
+    <div className="w-28 text-[#afafaf]">
       <div>
         <img src={Logo} alt="F.C.C" />
       </div>
@@ -24,7 +24,7 @@ export default function Nav() {
             <li key={id} className="w-full h-14">
               <Link
                 to={item.title}
-                className="flex flex-col items-center text-center gap-1 py-3 p-1 hover:bg-[#334851] w-full hover:border-l-2 border-[#fff]"
+                className="flex flex-col items-center text-center gap-1 py-3 p-1 hover:text-blue-600 hover:bg-[#334851] w-full hover:border-l-2 border-[#fff] group"
               >
                 <i>{item.logo}</i>
                 <p>{item.title}</p>

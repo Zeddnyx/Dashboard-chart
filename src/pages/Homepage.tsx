@@ -12,7 +12,7 @@ import TopFrequency from "../components/chart/MachineActivity";
 
 export default function homepage() {
   return (
-    <div className="w-full px-2">
+    <div className="w-full px-2 text-[#fff]">
       <NavHomepage />
       <div className="grid grid-cols-3 gap-3">
         <PaiCart />
